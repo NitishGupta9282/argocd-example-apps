@@ -4,6 +4,9 @@ namePrefix: naveen
 # Example configuration for the webserver
 # at https://github.com/monopole/hello
 
+metadata:
+  name: arbitrary
+
 resources:
 - guestbook-ui-deployment.yaml
 - guestbook-ui-svc.yaml
