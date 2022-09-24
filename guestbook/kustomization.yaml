@@ -1,2 +1,2 @@
 resources:
-- guestbook-ui-svc.yaml
+- guestbook-ui-deployment.yaml
