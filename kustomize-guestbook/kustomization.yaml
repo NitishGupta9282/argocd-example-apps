@@ -1,4 +1,4 @@
-namePrefix: K8s-
+namePrefix: test-
 
 resources:
 - guestbook-ui-deployment.yaml
