@@ -3,7 +3,7 @@ kind: Kustomization
 metadata:
   name: arbitrary
   
-namePrefix: Kust-
+namePrefix: Kust2-
 
 # Example configuration for the webserver
 # at https://github.com/monopole/hello
