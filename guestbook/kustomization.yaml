@@ -1,2 +1,5 @@
 resources:
 - guestbook-ui-deployment.yaml
+
+commonLabels:
+  app: bingo
