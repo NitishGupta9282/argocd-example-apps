@@ -1,4 +1,4 @@
-namePrefix: kustime-
+namePrefix: kust-
 
 resources:
 - guestbook-ui-deployment.yaml
