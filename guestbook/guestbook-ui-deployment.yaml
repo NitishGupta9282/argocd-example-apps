@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nitish
+  name: nitish-ui
 spec:
   replicas: 1
   revisionHistoryLimit: 3
