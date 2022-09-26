@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: apache-ui
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: apache-ui
+  template:
+    metadata:
+      labels:
+        app: apache-ui
+    spec:
+      containers:
+      - image: nitish9282/nginx:1.3
+        name: apache-ui
+        ports:
+        - containerPort: 80
