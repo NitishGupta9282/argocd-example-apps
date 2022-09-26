@@ -13,7 +13,7 @@ spec:
         app: apache-ui
     spec:
       containers:
-      - image: nitish9282/nginx:1.3
+      - image: nitish9282/apache:1.1
         name: apache-ui
         ports:
         - containerPort: 80
