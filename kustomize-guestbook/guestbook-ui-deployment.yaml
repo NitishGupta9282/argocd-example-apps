@@ -13,7 +13,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: nitish9282/nginx:latest
+      - image: 647496772601.dkr.ecr.us-east-1.amazonaws.com/ncryptify/citrus:latest
         name: guestbook-ui
         ports:
         - containerPort: 80
