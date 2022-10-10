@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook-ui
+  name: amazon-ui
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: guestbook-ui
+      app: amazon-ui
   template:
     metadata:
       labels:
-        app: guestbook-ui
+        app: amazon-ui
     spec:
       containers:
-      - image: httpd:alpine 
-        name: guestbook-ui
+      - image: httpd:alpine
+        name: amazon-ui
         ports:
         - containerPort: 80
