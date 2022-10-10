@@ -13,7 +13,7 @@ spec:
         app: guestbook-ui
     spec:
       containers:
-      - image: tomcat
+      - image: tomcat:latest
         name: guestbook-ui
         ports:
         - containerPort: 80
